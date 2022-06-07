@@ -36,7 +36,7 @@ export const Message = () => {
             )
         )
     return (
-        <div className='h-[90vh]'>
+        <div className='h-[97vh]'>
             <div className='flex justify-between p-5 border-slate-400 m-2 shadow-md h-[10%]'>
                 <div className='font-bold text-2xl font-mono text-indigo-500'>React Message</div>
                 <div className='flex w-36 justify-between'>
