@@ -36,8 +36,8 @@ export const Message = () => {
             )
         )
     return (
-        <div>
-            <div className='flex justify-between p-5 border-slate-400 m-2 shadow-md'>
+        <div className='h-[90vh]'>
+            <div className='flex justify-between p-5 border-slate-400 m-2 shadow-md h-[10%]'>
                 <div className='font-bold text-2xl font-mono text-indigo-500'>React Message</div>
                 <div className='flex w-36 justify-between'>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className='h-8 text-indigo-500'>
@@ -51,7 +51,7 @@ export const Message = () => {
                     </svg>
                 </div>
             </div>
-            <div className='bg-blue-50 mt-2 ml-2 mr-2 mb-16 p-3 -pb-32 h-screen flex flex-col-reverse bg-scroll overflow-y-scroll'>
+            <div className='bg-blue-50 mt-2 ml-2 mr-2 mb-16 p-3 h-[90%] flex flex-col-reverse bg-scroll overflow-y-scroll'>
                 {displayMessage}
                 <div>{loading && 'Loading...'}</div>
                 <div>{error && 'Error'}</div>
