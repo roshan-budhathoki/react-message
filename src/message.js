@@ -2,7 +2,7 @@ import React, {useState, useRef, useCallback} from 'react'
 import Image from './images/male.png';
 import useMessage from './useMessage';
 export const Message = () => {
-    const [pageNumber, setPageNumber] = useState(110);
+    const [pageNumber, setPageNumber] = useState(50);
     const { 
         messages,
         hasMore,
